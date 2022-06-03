@@ -17,7 +17,7 @@ from mpl_toolkits import mplot3d
 from datetime import datetime
 import os
 start_time = datetime.now()
-my_path = os.path.abspath('C:/Users/Geoffrey Wakeley/Documents/Central Principles Series/Software/Classical Mechanics Software/Newtonian Mechanics/The Three Body Problem')
+my_path = os.path.abspath('YOUR DIRECTORY!')
 
 ##############################################################################################
 ########-Constants-###########################################################################
