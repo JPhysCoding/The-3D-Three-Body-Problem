@@ -120,7 +120,7 @@ ax.set_xlabel('$x \ [a.u]$',fontsize=15)
 ax.set_ylabel('$y \ [a.u]$',fontsize=15)
 ax.set_zlabel('$z \ [a.u]$',fontsize=15)
 ani = animation.FuncAnimation(fig, animate, frames=1000, interval=50)
-ani.save('C:/Users/Geoffrey Wakeley/Documents/Central Principles Series/Software/Classical Mechanics Software/Newtonian Mechanics/The Three Body Problem/Three_Body_Orbit_3D.gif',writer='pillow',fps=30)
+ani.save('YOUR DIRECTORY/The_Three_Body_Problem_3D.gif',writer='pillow',fps=30)
 
 ##############################################################################################
 ########-The Computational Time-##############################################################
