@@ -33,22 +33,22 @@ m2                     = 1.4 #float(input("Input Mass (Second Object): "))
 m3                     = 2.5 #float(input("Input Mass (Third Object): "))
 x1_0                   = 0 #float(input("Input Initial X-Direction Position (First Object): "))
 y1_0                   = 0 #float(input("Input Initial Y-Direction Position (First Object): "))
-z1_0                   = 0
+z1_0                   = 0 #float(input("Input Initial Z-Direction Velocity (First Object): "))
 x2_0                   = 1 #float(input("Input Initial X-Direction Position (Second Object): "))
 y2_0                   = 0.5 #float(input("Input Initial Y-Direction Position (Second Object): "))
-z2_0                   = 1
-x3_0                   = -1 #float(input("Input Initial Y-Direction Position (Third Object): "))
+z2_0                   = 1 #float(input("Input Initial Z-Direction Velocity (Second Object): "))
+x3_0                   = -1 #float(input("Input Initial X-Direction Position (Third Object): "))
 y3_0                   = -1.2 #float(input("Input Initial Y-Direction Position (Third Object): "))
-z3_0                   = -1
+z3_0                   = -1 #float(input("Input Initial Z-Direction Velocity (Third Object): "))
 vx1_0                  = 0.1 #float(input("Input Initial X-Direction Velocity (First Object): "))
-vy1_0                  = -0.15
+vy1_0                  = -0.15 #float(input("Input Initial Y-Direction Velocity (First Object): "))
+vz1_0                  = 0.1 #float(input("Input Initial Z-Direction Velocity (First Object): "))
 vx2_0                  = 0.1 #float(input("Input Initial X-Direction Velocity (Second Object): "))
 vy2_0                  = 0.14 #float(input("Input Initial Y-Direction Velocity (Second Object): "))
+vz2_0                  = -0.14 #float(input("Input Initial Z-Direction Velocity (Second Object): "))
 vx3_0                  = 0.1 #float(input("Input Initial X-Direction Velocity (Third Object): "))
 vy3_0                  = 0.15 #float(input("Input Initial Y-Direction Velocity (Third Object): "))
-vz1_0                  = 0.1
-vz2_0                  = -0.14
-vz3_0                  = 0.1
+vz3_0                  = 0.1 #float(input("Input Initial Z-Direction Velocity (Third Object): "))
 
 ##############################################################################################
 ########-Program-#############################################################################
